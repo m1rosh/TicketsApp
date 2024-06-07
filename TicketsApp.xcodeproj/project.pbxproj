@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7450134D2C0E70B90026D257 /* SearchFullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7450134C2C0E70B90026D257 /* SearchFullScreenView.swift */; };
+		7450134F2C0E77350026D257 /* CyrillicFiled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7450134E2C0E77350026D257 /* CyrillicFiled.swift */; };
+		745013522C0F69CC0026D257 /* AllTicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745013512C0F69CC0026D257 /* AllTicketsView.swift */; };
+		745013542C0F69D70026D257 /* AllTicketsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745013532C0F69D70026D257 /* AllTicketsViewModel.swift */; };
+		745013562C0F69E20026D257 /* AllTicketsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745013552C0F69E20026D257 /* AllTicketsModel.swift */; };
+		745013592C0F98600026D257 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745013582C0F98600026D257 /* CalendarView.swift */; };
+		7450135C2C0FAC8A0026D257 /* TicketCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7450135B2C0FAC8A0026D257 /* TicketCardView.swift */; };
+		747D747F2C0E1B7300018942 /* AviaTicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D747E2C0E1B7200018942 /* AviaTicketsView.swift */; };
+		747D74812C0E1B7E00018942 /* AviaTicketsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D74802C0E1B7E00018942 /* AviaTicketsModel.swift */; };
+		747D74832C0E1B8900018942 /* AviaTicketsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D74822C0E1B8900018942 /* AviaTicketsViewModel.swift */; };
+		747D74862C0E1BCF00018942 /* HotelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D74852C0E1BCF00018942 /* HotelsView.swift */; };
+		747D74892C0E1BF400018942 /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D74882C0E1BF400018942 /* OtherView.swift */; };
+		747D748C2C0E1C1900018942 /* SubscriptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D748B2C0E1C1900018942 /* SubscriptionsView.swift */; };
+		747D74902C0E1C3200018942 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D748F2C0E1C3200018942 /* ProfileView.swift */; };
+		747D74922C0E35A100018942 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D74912C0E35A100018942 /* DataManager.swift */; };
+		747D74952C0E442000018942 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D74942C0E442000018942 /* SearchView.swift */; };
+		747D74972C0E442800018942 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D74962C0E442800018942 /* SearchViewModel.swift */; };
+		747D74992C0E443400018942 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D74982C0E443400018942 /* SearchModel.swift */; };
+		7493974A2C0E1A6600AC38D7 /* TicketsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749397492C0E1A6600AC38D7 /* TicketsAppApp.swift */; };
+		7493974C2C0E1A6600AC38D7 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7493974B2C0E1A6600AC38D7 /* RootView.swift */; };
+		7493974E2C0E1A6700AC38D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7493974D2C0E1A6700AC38D7 /* Assets.xcassets */; };
+		749397512C0E1A6700AC38D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749397502C0E1A6700AC38D7 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7450134C2C0E70B90026D257 /* SearchFullScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFullScreenView.swift; sourceTree = "<group>"; };
+		7450134E2C0E77350026D257 /* CyrillicFiled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyrillicFiled.swift; sourceTree = "<group>"; };
+		745013512C0F69CC0026D257 /* AllTicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTicketsView.swift; sourceTree = "<group>"; };
+		745013532C0F69D70026D257 /* AllTicketsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTicketsViewModel.swift; sourceTree = "<group>"; };
+		745013552C0F69E20026D257 /* AllTicketsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTicketsModel.swift; sourceTree = "<group>"; };
+		745013582C0F98600026D257 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		7450135B2C0FAC8A0026D257 /* TicketCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketCardView.swift; sourceTree = "<group>"; };
+		747D747E2C0E1B7200018942 /* AviaTicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviaTicketsView.swift; sourceTree = "<group>"; };
+		747D74802C0E1B7E00018942 /* AviaTicketsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviaTicketsModel.swift; sourceTree = "<group>"; };
+		747D74822C0E1B8900018942 /* AviaTicketsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviaTicketsViewModel.swift; sourceTree = "<group>"; };
+		747D74852C0E1BCF00018942 /* HotelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsView.swift; sourceTree = "<group>"; };
+		747D74882C0E1BF400018942 /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
+		747D748B2C0E1C1900018942 /* SubscriptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionsView.swift; sourceTree = "<group>"; };
+		747D748F2C0E1C3200018942 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		747D74912C0E35A100018942 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		747D74942C0E442000018942 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		747D74962C0E442800018942 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		747D74982C0E443400018942 /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
+		749397462C0E1A6600AC38D7 /* TicketsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicketsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		749397492C0E1A6600AC38D7 /* TicketsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsAppApp.swift; sourceTree = "<group>"; };
+		7493974B2C0E1A6600AC38D7 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		7493974D2C0E1A6700AC38D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		749397502C0E1A6700AC38D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		749397432C0E1A6600AC38D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		745013502C0F69B20026D257 /* AllTickets */ = {
+			isa = PBXGroup;
+			children = (
+				7450135A2C0FAC780026D257 /* Components */,
+				745013512C0F69CC0026D257 /* AllTicketsView.swift */,
+				745013532C0F69D70026D257 /* AllTicketsViewModel.swift */,
+				745013552C0F69E20026D257 /* AllTicketsModel.swift */,
+			);
+			path = AllTickets;
+			sourceTree = "<group>";
+		};
+		745013572C0F98520026D257 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				745013582C0F98600026D257 /* CalendarView.swift */,
+				7450134C2C0E70B90026D257 /* SearchFullScreenView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7450135A2C0FAC780026D257 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7450135B2C0FAC8A0026D257 /* TicketCardView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		747D747D2C0E1B5A00018942 /* AviaTickets */ = {
+			isa = PBXGroup;
+			children = (
+				747D747E2C0E1B7200018942 /* AviaTicketsView.swift */,
+				747D74802C0E1B7E00018942 /* AviaTicketsModel.swift */,
+				747D74822C0E1B8900018942 /* AviaTicketsViewModel.swift */,
+				7450134E2C0E77350026D257 /* CyrillicFiled.swift */,
+			);
+			path = AviaTickets;
+			sourceTree = "<group>";
+		};
+		747D74842C0E1BB500018942 /* Hotels */ = {
+			isa = PBXGroup;
+			children = (
+				747D74852C0E1BCF00018942 /* HotelsView.swift */,
+			);
+			path = Hotels;
+			sourceTree = "<group>";
+		};
+		747D74872C0E1BE600018942 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				747D74882C0E1BF400018942 /* OtherView.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		747D748A2C0E1BF800018942 /* Subscriptions */ = {
+			isa = PBXGroup;
+			children = (
+				747D748B2C0E1C1900018942 /* SubscriptionsView.swift */,
+			);
+			path = Subscriptions;
+			sourceTree = "<group>";
+		};
+		747D748D2C0E1C1D00018942 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				747D748F2C0E1C3200018942 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		747D74932C0E441200018942 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				745013572C0F98520026D257 /* Components */,
+				747D74942C0E442000018942 /* SearchView.swift */,
+				747D74962C0E442800018942 /* SearchViewModel.swift */,
+				747D74982C0E443400018942 /* SearchModel.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		7493973D2C0E1A6600AC38D7 = {
+			isa = PBXGroup;
+			children = (
+				749397482C0E1A6600AC38D7 /* TicketsApp */,
+				749397472C0E1A6600AC38D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		749397472C0E1A6600AC38D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				749397462C0E1A6600AC38D7 /* TicketsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		749397482C0E1A6600AC38D7 /* TicketsApp */ = {
+			isa = PBXGroup;
+			children = (
+				745013502C0F69B20026D257 /* AllTickets */,
+				747D74932C0E441200018942 /* Search */,
+				747D748D2C0E1C1D00018942 /* Profile */,
+				747D748A2C0E1BF800018942 /* Subscriptions */,
+				747D74872C0E1BE600018942 /* Other */,
+				747D74842C0E1BB500018942 /* Hotels */,
+				747D747D2C0E1B5A00018942 /* AviaTickets */,
+				749397492C0E1A6600AC38D7 /* TicketsAppApp.swift */,
+				7493974B2C0E1A6600AC38D7 /* RootView.swift */,
+				747D74912C0E35A100018942 /* DataManager.swift */,
+				7493974D2C0E1A6700AC38D7 /* Assets.xcassets */,
+				7493974F2C0E1A6700AC38D7 /* Preview Content */,
+			);
+			path = TicketsApp;
+			sourceTree = "<group>";
+		};
+		7493974F2C0E1A6700AC38D7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				749397502C0E1A6700AC38D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		749397452C0E1A6600AC38D7 /* TicketsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 749397542C0E1A6700AC38D7 /* Build configuration list for PBXNativeTarget "TicketsApp" */;
+			buildPhases = (
+				749397422C0E1A6600AC38D7 /* Sources */,
+				749397432C0E1A6600AC38D7 /* Frameworks */,
+				749397442C0E1A6600AC38D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicketsApp;
+			productName = TicketsApp;
+			productReference = 749397462C0E1A6600AC38D7 /* TicketsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7493973E2C0E1A6600AC38D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					749397452C0E1A6600AC38D7 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 749397412C0E1A6600AC38D7 /* Build configuration list for PBXProject "TicketsApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7493973D2C0E1A6600AC38D7;
+			productRefGroup = 749397472C0E1A6600AC38D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				749397452C0E1A6600AC38D7 /* TicketsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		749397442C0E1A6600AC38D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749397512C0E1A6700AC38D7 /* Preview Assets.xcassets in Resources */,
+				7493974E2C0E1A6700AC38D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		749397422C0E1A6600AC38D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7450135C2C0FAC8A0026D257 /* TicketCardView.swift in Sources */,
+				747D74992C0E443400018942 /* SearchModel.swift in Sources */,
+				745013562C0F69E20026D257 /* AllTicketsModel.swift in Sources */,
+				747D74922C0E35A100018942 /* DataManager.swift in Sources */,
+				747D747F2C0E1B7300018942 /* AviaTicketsView.swift in Sources */,
+				747D74902C0E1C3200018942 /* ProfileView.swift in Sources */,
+				7493974C2C0E1A6600AC38D7 /* RootView.swift in Sources */,
+				745013542C0F69D70026D257 /* AllTicketsViewModel.swift in Sources */,
+				747D74952C0E442000018942 /* SearchView.swift in Sources */,
+				747D74812C0E1B7E00018942 /* AviaTicketsModel.swift in Sources */,
+				747D74832C0E1B8900018942 /* AviaTicketsViewModel.swift in Sources */,
+				747D74892C0E1BF400018942 /* OtherView.swift in Sources */,
+				747D748C2C0E1C1900018942 /* SubscriptionsView.swift in Sources */,
+				745013592C0F98600026D257 /* CalendarView.swift in Sources */,
+				745013522C0F69CC0026D257 /* AllTicketsView.swift in Sources */,
+				7493974A2C0E1A6600AC38D7 /* TicketsAppApp.swift in Sources */,
+				747D74972C0E442800018942 /* SearchViewModel.swift in Sources */,
+				7450134F2C0E77350026D257 /* CyrillicFiled.swift in Sources */,
+				747D74862C0E1BCF00018942 /* HotelsView.swift in Sources */,
+				7450134D2C0E70B90026D257 /* SearchFullScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		749397522C0E1A6700AC38D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		749397532C0E1A6700AC38D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		749397552C0E1A6700AC38D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TicketsApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = m1rosh.TicketsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		749397562C0E1A6700AC38D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TicketsApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = m1rosh.TicketsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		749397412C0E1A6600AC38D7 /* Build configuration list for PBXProject "TicketsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				749397522C0E1A6700AC38D7 /* Debug */,
+				749397532C0E1A6700AC38D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		749397542C0E1A6700AC38D7 /* Build configuration list for PBXNativeTarget "TicketsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				749397552C0E1A6700AC38D7 /* Debug */,
+				749397562C0E1A6700AC38D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7493973E2C0E1A6600AC38D7 /* Project object */;
+}
