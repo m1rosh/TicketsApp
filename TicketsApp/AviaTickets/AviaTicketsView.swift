@@ -99,6 +99,7 @@ struct AviaTicketsView: View {
                 
                 Divider()
                     .overlay(Color(red: 159 / 255, green: 159 / 255, blue: 159 / 255, opacity: 0.62))
+                    .padding(.trailing, 20)
                 
                 HStack {
                     Text(targetCity.count == 0 ? "Куда - Турция" : targetCity)

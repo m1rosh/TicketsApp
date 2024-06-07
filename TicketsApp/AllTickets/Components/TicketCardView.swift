@@ -47,11 +47,18 @@ struct TicketCardView: View {
                                 .font(.system(size: 14))
                                 .foregroundStyle(Color(red: 159 / 255, green: 159 / 255, blue: 159 / 255))
                         }
-                        
-                        if let duration = ticket.getFlightDuration() {
-                            Text(" \(duration) в пути" )
-                                .foregroundStyle(.white)
-                                .font(.system(size: 14))
+                        HStack(spacing: 0) {
+                            if let duration = ticket.getFlightDuration() {
+                                Text(" \(duration) в пути ")
+                                    .foregroundStyle(.white)
+                                    .font(.system(size: 14))
+                            }
+                            
+                            if ticket.has_transfer {
+                                Text("/ Без пересадок")
+                                    .foregroundStyle(.white)
+                                    .font(.system(size: 14))
+                            }
                         }
                     }
                 }

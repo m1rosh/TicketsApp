@@ -66,14 +66,9 @@ struct OneTicket: Decodable, Identifiable {
             } else {
                 duration = arrivalDate.timeIntervalSince(departureDate) + 24 * 60 * 60
             }
-            let hours = Int(duration) / 3600
-            let minutes = (Int(duration) % 3600) / 60
+            let hours = Double(duration) / 3600
         
-        if minutes > 0 {
-            return String(format: "%dч %dмин", hours, minutes)
-        }
-        
-        return String(format: "%dч %dмин", hours, minutes)
+        return(String(format: "%.1f%ч", hours))
     }
     
 }
